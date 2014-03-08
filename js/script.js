@@ -1,3 +1,4 @@
+var _gaq = _gaq || [];
 $(function() {
     function command(cmd, term) {
         cmd = cmd.toLowerCase();
@@ -10,6 +11,7 @@ $(function() {
                 "ABOUT\t\t Display all informations about me"+
                 "\n"
                 );
+                _gaq.push(['_trackEvent'], 'Command', 'Help', 'Help Command');
                 break;
             case "about":
                 term.echo(
@@ -18,8 +20,10 @@ $(function() {
                 "\n"
                 );
                 break;
+                _gaq.push(['_trackEvent'], 'Command', 'Help', 'About Me');
             default: 
                 term.error("command ["+cmd+"] not recognized");
+                _gaq.push(['_trackEvent'], 'Command', 'Error', 'error');
                 break;
         }
     }
