@@ -27,7 +27,7 @@ $(function() {
     $("#terminal").terminal(function(cmd, term){
         command(cmd, term);
     }, {
-        prompt : "$veelasky#>",
-        greetings:"Veelasky Console\n"+"Copyright (c) 2014 by Rifki Alhuraibi\n\n"+"type help to see all available command\n",
+        prompt : "[guest@localhost ~]# ",
+        greetings:"Veelasky Console\n"+"Copyright (c) 2014 by Rifki Alhuraibi\n\n"+"type `help` to see all available command\n",
     });
 });
