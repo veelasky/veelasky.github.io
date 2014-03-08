@@ -1,0 +1,11 @@
+#terminal {
+    background-color: #000;
+    font-family: "Ubuntu Mono", sans-serif;
+    color: #aaa;
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
