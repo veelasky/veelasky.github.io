@@ -61,7 +61,7 @@ $(function() {
                 );
                 break;
             default: 
-                term.error("command ["+cmd+"] not recognized");
+                term.echo(cmd+": command not found");
                 break;
         }
     }
