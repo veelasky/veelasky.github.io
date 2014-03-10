@@ -39,8 +39,8 @@ $(function() {
                 term.echo(
                 "\n"+
                 "Laravel\t\t " + "laravel is a very robust and expressive php framework, it gain some spotlight with the release of version 4.*. I've been using laravel since version 3.0 and never looked back." + "\n" +
-                "jQuery\t\t  "  + "jQuery is definitely my choice of framework on javascript framework." + "\n" +
-                "Bootstrap\t   " + "as for frontent and ui, i prefer using Twitter Bootstrap." + "\n" +
+                "jQuery\t\t  "  + "jQuery is definitely my choice of framework on javascript." + "\n" +
+                "Bootstrap\t   " + "as for frontend and UI, i prefer using Twitter Bootstrap." + "\n" +
                 "\n"
                 );
                 break;
