@@ -10,6 +10,7 @@ $(function() {
                 "ABOUT\t\t\t Display all informations about me"+"\n"+
                 "SKILL\t\t\t Display self assessed skill"+"\n"+
                 "TOOLS\t\t\t Some tools and framework that I use"+"\n"+
+                "PROJECT\t\t\   Projects that i'm working on" + "\n" +
                 "CONTACT\t\t   How to contact me"+"\n"+
                 "CLEAR\t\t\t Clear the screen"+"\n"+
                 "\n"
@@ -40,6 +41,14 @@ $(function() {
                 "Laravel\t\t " + "laravel is a very robust and expressive php framework, it gain some spotlight with the release of version 4.*. I've been using laravel since version 3.0 and never looked back." + "\n" +
                 "jQuery\t\t  "  + "jQuery is definitely my choice of framework on javascript framework." + "\n" +
                 "Bootstrap\t   " + "as for frontent and ui, i prefer using Twitter Bootstrap." + "\n" +
+                "\n"
+                );
+                break;
+            case "project":
+                term.echo(
+                "\n"+
+                "Currently i'm working on starter application for laravel, codenamed Pendopo,\nsince i'm doing it in my own time, the development process is rather slow,\nit's open source so feel free to contribute!." + "\n\n"+
+                "http://github.com/veelasky"+ "\n"+
                 "\n"
                 );
                 break;
